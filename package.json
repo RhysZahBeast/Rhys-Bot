@@ -1,0 +1,15 @@
+{
+  "name": "rb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rhys",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "string.prototype.startswith": "^0.2.0"
+  }
+}
