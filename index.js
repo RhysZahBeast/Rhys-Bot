@@ -29,12 +29,12 @@ client.on('message', msg => {
 
   var interval = setInterval (function () {
     msg.delete()
-   }, 1200 * 1000);
+   }, 300 * 1000);
 
   if(msg.content.startsWith(''))
     var interval = setInterval (function () {
       msg.channel.send('All messages have been deleted due to 20 minutes of inactivity');
-    }, 1205 * 1000);
+    }, 305 * 1000);
 
   if(msg.content === prefix + 'ping') {
     msg.reply('pong');
